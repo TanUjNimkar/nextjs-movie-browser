@@ -1,34 +1,49 @@
-# Nextflix 
-A simple Netflix Clone made using [Next.js](https://nextjs.org/) ⚡
+# Next.js Movie Browser
 
-Currently, I have implemented the basic UI with media details fetch functionality.
+## Overview
+A movie browsing web application built with Next.js and TypeScript, integrating the TMDB API to fetch and display trending and searchable media content.
 
+## Live Demo
+https://nextflix-azure.vercel.app/
 
-Deployed it using vercel [here](https://nextflix-azure.vercel.app/).
+## Features
+- Browse trending and popular movies
+- Search functionality with dynamic results
+- Responsive UI design
+- Modular component architecture
+- API integration using TMDB
 
-Please leave a ⭐ as motivation if you liked the implementation 😄
+## Tech Stack
+- Next.js
+- TypeScript
+- Sass (SCSS)
+- TMDB API
+- Docker
 
+## Architecture
+Client (Next.js) → API Routes → TMDB API
+
+## Getting Started
+
+### Install dependencies
+yarn install
+
+### Run locally
+yarn dev
+
+App runs on:
+http://localhost:3000
+
+## Docker
+
+### Build image
+docker build -t movie-browser .
+
+### Run container
+docker run -p 3000:3000 movie-browser
 
 ## Demo
 ![Demo](/public/assets/demo.gif)
-<br />
-<br />
 
-## Built with
-* [Next.js](https://nextjs.org/)
-* [Typescript](https://www.typescriptlang.org/)
-* [Sass](https://sass-lang.com/)
-* [TMDB API](https://www.themoviedb.org/)
-
-
-## Running the project
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-In the project directory, you can run:
-
-#### `yarn start`
-
-It runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser. 
-
-
+## Notes
+This project is built for learning and demonstrates frontend architecture, API integration, and containerization practices.
