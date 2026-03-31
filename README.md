@@ -5,8 +5,9 @@ A movie browsing web application built with Next.js and TypeScript, integrating 
 
 ## Live Demo
 A simple Netflix Clone made using [Next.js](https://nextjs.org/) ⚡
-
-(/public/assets/demo.gif)
+![Demo](/public/assets/demo.gif)
+<br />
+<br />
 
 ## Features
 - Browse trending and popular movies
