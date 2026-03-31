@@ -4,7 +4,9 @@
 A movie browsing web application built with Next.js and TypeScript, integrating the TMDB API to fetch and display trending and searchable media content.
 
 ## Live Demo
-https://nextflix-azure.vercel.app/
+A simple Netflix Clone made using [Next.js](https://nextjs.org/) ⚡
+
+(/public/assets/demo.gif)
 
 ## Features
 - Browse trending and popular movies
