@@ -45,8 +45,5 @@ docker build -t movie-browser .
 ### Run container
 docker run -p 3000:3000 movie-browser
 
-## Demo
-![Demo](/public/assets/demo.gif)
-
 ## Notes
 This project is built for learning and demonstrates frontend architecture, API integration, and containerization practices.
