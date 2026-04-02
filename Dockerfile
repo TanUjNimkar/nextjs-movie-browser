@@ -3,7 +3,7 @@ FROM node:18.0.0-alpine
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-COPY . . .
+COPY . . 
 ENV NODE_OPTIONS=--openssl-legacy-provider
 
 ARG API_KEY
