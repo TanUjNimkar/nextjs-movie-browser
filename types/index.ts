@@ -35,7 +35,7 @@ export type Media = {
   genre: Genre[];
 };
 
-export type ImageType = 'poster' | 'origina';
+export type ImageType = 'poster' | 'original';
 
 export type Section = {
   heading: string;
