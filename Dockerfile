@@ -11,7 +11,7 @@ ENV TMDB_KEY=${API_KEY}
 c
 RUN npm install
 
-RUN npm run build
+RUN npm run buildc
 
 EXPOSE 3000
 
