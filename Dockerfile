@@ -7,7 +7,7 @@ COPY . .
 ENV NODE_OPTIONS=--openssl-legacy-provider
 
 ARG API_KEY
-ENV TMDB_KEY=${API_KEY}
+ENV TMDB_KEY=${API_KEY}c
 c
 RUN npm install
 
