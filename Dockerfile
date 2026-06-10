@@ -8,7 +8,7 @@ ENV NODE_OPTIONS=--openssl-legacy-provider
 
 ARG API_KEY
 ENV TMDB_KEY=${API_KEY}
-a
+
 RUN npm install
 a
 RUN npm run build
