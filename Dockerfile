@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 
 COPY . .
 ENV NODE_OPTIONS=--openssl-legacy-provider
-
+a
 ARG API_KEY
 ENV TMDB_KEY=${API_KEY}
 a
