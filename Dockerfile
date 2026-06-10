@@ -10,7 +10,7 @@ ARG API_KEY
 ENV TMDB_KEY=${API_KEY}
 
 RUN npm install
-a
+
 RUN npm run build
 a
 EXPOSE 3000
