@@ -12,7 +12,7 @@ ENV TMDB_KEY=${API_KEY}
 RUN npm install
 
 RUN npm run build
-a
+
 EXPOSE 3000
 q
 CMD ["npm", "start"]
