@@ -14,5 +14,5 @@ RUN npm install
 RUN npm run build
 
 EXPOSE 3000
-q
+
 CMD ["npm", "start"]
